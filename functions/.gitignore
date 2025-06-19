@@ -1,2 +1,28 @@
-node_modules/
-*.local
+# Node modules
+node_modules
+/functions/node_modules
+
+# Firebase
+.firebase/
+hosting.SOUCE
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist
+build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE-specific
+.idea
+.vscode/
